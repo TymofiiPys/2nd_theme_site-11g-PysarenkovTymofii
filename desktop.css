@@ -1,0 +1,152 @@
+html{
+    color: #36393B;
+    font-family: "Calibri";
+}
+body{
+    background-color: #cfe6f8;
+    width: 80%;
+    position: relative;
+    margin: 10px 10% 50px 10%;
+}
+nav{
+    height: 120px;
+}
+.header{
+    width: 280px;
+    height: 35px;
+    background-color:  #36393B;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 20px;
+}
+input[type="checkbox"]  {
+    display: none;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    align-content:center;
+    position: absolute;
+    right:0;
+    top: 10px;
+}
+.menu-item{
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 10px;
+    color:white;
+    background-color: #36393B;
+    width: 120px;
+}
+.sight{
+    position: relative;
+    display: flex;
+    left:10%;
+    width:612px;
+    margin: 20px 0px 20px 0px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.descr{
+    position: relative;
+    left: 25px;
+    top:-25px;
+    height:150px;
+}
+.link{
+    position: relative;
+    bottom:0px;
+}
+.sightname{
+    background-color: #bfb6bb;
+    text-align: center;
+    height: 75px;
+}
+.h1name{
+    position: relative;
+    top:30px;
+}
+p{
+    text-align: justify;
+}
+.images{
+    width:576px;
+    margin: 10px calc(50% - 280px) 0px calc(50% - 280px);
+    display: flex;
+}
+.imaage{
+    margin-right: 16px;
+    width: 176px;
+}
+.map{
+    position: relative;
+    top:20px;
+    width: 600px;
+}
+.dstat1{
+    width: calc(80% * 4.4 / 5);
+    height: 40px;
+    background-color: #e08186;
+    text-align: right;
+    border-radius: 10px;
+}
+.dstat2{
+    width: calc(80% * 4.5 / 5);
+    height: 40px;
+    background-color: #e08186;
+    text-align: right;
+    border-radius: 10px;
+}
+.dstat3{
+    width: calc(80% * 4.7/5);
+    height: 40px;
+    background-color: #e08186;
+    text-align: right;
+    border-radius: 10px;
+}
+.dstat4{
+    width: calc(80% * 4.6 / 5);
+    height: 40px;
+    background-color: #e08186;
+    text-align: right;
+    border-radius: 10px;
+}
+.dstat5{
+    width: calc(80% * 4.7/5);
+    height: 40px;
+    background-color: #e08186;
+    text-align: right;
+    border-radius: 10px;
+}
+h2{
+    font-size: 26px;
+}
+.percentage{
+    color:white;
+    position: relative;
+    margin-right: 30px;
+}
+.insta{
+    position: relative;
+    left:calc(10% + 50px);
+    width: 50px;
+    height:50px;
+    background-image: url("insta.png");
+    background-size: cover;
+}
+a{
+    width:150px;
+}
+.insta1{
+    margin: 10px calc(50% - 25px) 10px calc(50% - 25px);
+    width: 50px;
+    height:50px;
+    background-image: url("insta.png");
+    background-size: cover;
+}
